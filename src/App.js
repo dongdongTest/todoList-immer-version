@@ -1,26 +1,54 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {useCallback, useState} from 'react';
+import TodoTemplate from "./components/TodoTemplate";
+import TodoInsert from "./components/TodoInsert";
+import TodoList from "./components/TodoList";
+import produce from "immer";
 
-function App() {
+const App = () => {
+
+  const [todos , setTodos] = useState([
+    {
+      text : 'react',
+      checked  : true,
+    },
+    {
+      text : 'JS',
+      checked  : true,
+    },
+    {
+      text : 'Python',
+      checked  : false,
+    },
+  ]);
+
+  const handleInsert = useCallback((text) => {
+    const todo = {
+      text : text ,
+      checked : false
+    };
+    setTodos(produce(todos , draft => {
+      draft.push(todo)
+    }));
+  },[todos]);
+
+  const handleDelete = useCallback((idx) => {
+    setTodos(produce(todos , draft => {
+      draft.splice(idx,1)
+    }));
+  },[todos]);
+
+  const handleToggle = useCallback((idx) => {
+    setTodos(todos.map((todo,index) => index === idx ? {...todo , checked: !todo.checked} : todo))
+  },[todos]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <TodoTemplate>
+        <TodoInsert onInsert={handleInsert}/>
+        <TodoList todos={todos} onDelete={handleDelete} onToggle={handleToggle}/>
+      </TodoTemplate>
     </div>
   );
-}
+};
 
 export default App;
