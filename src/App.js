@@ -38,8 +38,9 @@ const App = () => {
   },[todos]);
 
   const handleToggle = useCallback((idx) => {
-    setTodos(todos.map((todo,index) => index === idx ? {...todo , checked: !todo.checked} : todo))
-  },[todos]);
+    setTodos(produce(todos , draft => {
+      draft[idx].checked = !draft[idx].checked;
+    }))},[todos]);
 
   return (
     <div>
