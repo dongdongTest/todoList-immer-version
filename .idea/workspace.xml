@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2d2e13f-09a1-427a-bb04-ed861883308f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TodoInsert.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TodoInsert.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TodoList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TodoList.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TodoTemplate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TodoTemplate.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +25,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../latst-todolists-reactbook" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -70,6 +58,18 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -82,6 +82,7 @@
       <updated>1587905694734</updated>
       <workItem from="1587905696064" duration="5990000" />
       <workItem from="1587913898221" duration="1187000" />
+      <workItem from="1589623391093" duration="138000" />
     </task>
     <servers />
   </component>
@@ -93,6 +94,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2472" y="179" key="#ESLint/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587915059486" />
+    <state x="0" y="24" key="CommitChangelistDialog2" timestamp="1589623527732">
+      <screen x="0" y="23" width="1440" height="801" />
+    </state>
+    <state x="0" y="24" key="CommitChangelistDialog2/0.23.1440.801@0.23.1440.801" timestamp="1589623527732" />
     <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1587913916596">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
