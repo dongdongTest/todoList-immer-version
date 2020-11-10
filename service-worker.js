@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/new-todoList-immer-version/precache-manifest.0fdf8b61069485c94963f96e7706390b.js"
+  "/new-todoList-immer-version/precache-manifest.09684a627b533c8d0be8bb40849831d5.js"
 );
 
 self.addEventListener('message', (event) => {
