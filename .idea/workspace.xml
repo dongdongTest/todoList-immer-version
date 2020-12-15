@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2d2e13f-09a1-427a-bb04-ed861883308f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TodoInsert.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TodoInsert.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TodoList.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TodoList.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +11,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1b4yWrfTI60Rp7Hx8Mp28330f6f" />
@@ -39,6 +42,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -60,6 +64,7 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -74,32 +79,22 @@
       <workItem from="1587913898221" duration="1187000" />
       <workItem from="1589623391093" duration="138000" />
       <workItem from="1605025548924" duration="109000" />
+      <workItem from="1608005296964" duration="246000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="2472" y="179" key="#ESLint" timestamp="1587915059486">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2472" y="179" key="#ESLint/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587915059486" />
-    <state x="0" y="24" key="CommitChangelistDialog2" timestamp="1589623527732">
-      <screen x="0" y="23" width="1440" height="801" />
-    </state>
-    <state x="0" y="24" key="CommitChangelistDialog2/0.23.1440.801@0.23.1440.801" timestamp="1589623527732" />
-    <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1587913916596">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587913916596" />
-    <state x="2536" y="240" key="run.anything.popup" timestamp="1587914273010">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2536" y="240" key="run.anything.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587914273010" />
-    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1587915103512">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587915103512" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
