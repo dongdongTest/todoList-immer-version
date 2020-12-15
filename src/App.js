@@ -16,6 +16,14 @@ const App = () => {
       checked  : true,
     },
     {
+      text : 'TS',
+      checked  : false,
+    },
+    {
+      text : 'Node.js',
+      checked  : false,
+    },
+    {
       text : 'Python',
       checked  : false,
     },
